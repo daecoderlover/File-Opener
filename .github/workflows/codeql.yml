@@ -21,9 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - language: javascript-typescript
-            build-mode: none
+        include: 
           - language: python
             build-mode: none
 
